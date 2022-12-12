@@ -1,0 +1,29 @@
+jsx e oque vai renderizar nossos components.
+
+para o jsx renderizar varios componentes ele precisa ter um container PAI, geralmente um fragment vazio como <> </>, ou uma div.
+
+para escrever javaScript dentro do JSX fazemos usando as Chaves {codigo js}.
+-------
+componentes de Classes e Funcionais:
+
+
+hoje em Dia o componente de Classe Nao e mais Utilizado, eles foram parados se ser usado por ser muito Verboso.
+
+ESTADO: uma informacao que pode ser mutavel.
+
+---
+
+os componentes funcionais podem ser criado com functions ou com arrow function.
+
+para usar estados nesse tipo de componentes'
+nos precisamos importar o {useStates}
+
+
+o state ele tem uma norma de ser imutavel, entao se quisermos alterar seu valor, isso nao pode ser feito diretamente nele.
+
+o array de state recebe 2 parametros, 1 eo nome do estado, e o segundo e uma funcao q sera usada para alterar ele: const [nomeDoState, setNomeDoState],  esse set significa que vamos setar valores para ele.
+--------------------------------
+ciclo de vida dos componentes.
+
+toda vez que alteramos o estado de um componente ele e rerenderizado ou seja ele vai rerenderizar o componente inteiro novamente, gastando assim procesamento, o ideal e separar por componentes.
+
